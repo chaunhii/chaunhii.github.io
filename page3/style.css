@@ -1,0 +1,112 @@
+body {
+    background-color: rgb(255 224 230);
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu>ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.menu>ul>li {
+    margin-left: 20px;
+}
+
+.menu>ul>li:hover {
+    text-decoration: underline;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.logo {
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.search>input {
+    width: 550px;
+    background-color: var(--search-box-bg, white);
+    border: none;
+    border-radius: 20px;
+    font-size: inherit;
+    height: 40px;
+    outline: none;
+    padding-inline-end: 44px;
+    padding-inline-start: 52px;
+}
+
+.app-icons>.app-title>img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 30px;
+    background-color: rgba(255, 80, 114, 1);
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+
+.app-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.search>i {
+    font-size: 20px;
+}
+
+.app-title {
+    text-align: center;
+    border-radius: 40%;
+}
+
+.app-title:hover {
+    background-color: hsl(225deg 6% 13% / 10%);
+}
+
+.app-icons>.app-title>i {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 30px;
+    background-color: rgba(255, 80, 114, 1);
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: -10px;
+    font-size: 35px;
+}
+
+.menu>ul>li>.co-icons {
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.menu>ul>li>.co-icons:hover {
+    background-color: hsl(225deg 6% 13% / 10%);
+}
+
+.menu>ul>li>.avatar {
+    padding: 10px;
+}

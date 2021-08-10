@@ -1,0 +1,109 @@
+body {
+    background-color: black;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-seri;
+}
+
+.logo {
+    width: 100px;
+    height: 25px;
+}
+
+.title>ul {
+    display: flex;
+}
+
+.title>ul>li {
+    margin: 20px;
+    list-style: none;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+
+.list:hover .toggle {
+    color: white;
+    display: inline;
+    margin-left: 10px;
+}
+
+.list-image>.icons>i {
+    display: none;
+}
+
+.list-image>img:hover+.icons>i {
+    display: block;
+}
+
+.toggle {
+    display: none;
+}
+
+.list>ul>li>i {
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.list>ul {
+    list-style: none;
+    font-size: 20px;
+}
+
+.list-image {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.list-image>.icons>i {
+    font-size: 120px;
+    color: white;
+    margin-left: 10px;
+}
+
+.list {
+    color: white;
+}
+
+.list>ul>li>.toggle>i {
+    font-size: 10px;
+}
+
+.list-image:hover .list>ul>li>i {
+    display: inline;
+}
+
+.list-image>img {
+    margin-left: 10px;
+}
+
+.list>ul {
+    margin-left: 40px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.icons>i {
+    margin-left: 5px;
+    font-size: 24px;
+}
+
+.feature>h1 {
+    color: cornflowerblue;
+    position: absolute;
+    top: 75%;
+    left: 100px;
+    font-family: 'Shadows Into Light';
+    font-size: 48px;
+}
+
+.feature {
+    position: relative;
+}
